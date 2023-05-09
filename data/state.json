@@ -1,0 +1,144 @@
+{
+    "0x00158d00022c1043": {
+        "voltage": 3052,
+        "battery": 100,
+        "power_outage_count": 62,
+        "linkquality": 174
+    },
+    "0x187a3efffe0f6663": {
+        "target_distance": 1.44,
+        "illuminance_lux": 14,
+        "presence": true,
+        "maximum_range": 2.5,
+        "radar_sensitivity": 9,
+        "minimum_range": 0.1,
+        "self_test": "check_success",
+        "detection_delay": 0.1,
+        "fading_time": 15,
+        "cli": " ",
+        "linkquality": 171
+    },
+    "0xa4c138b029ecf4da": {
+        "battery": 100,
+        "voltage": 3000,
+        "temperature": 21.81,
+        "humidity": 53.49,
+        "linkquality": 163
+    },
+    "0xa4c138694bdc6ae5": {
+        "battery": 100,
+        "voltage": 2800,
+        "contact": true,
+        "tamper": false,
+        "battery_low": false,
+        "linkquality": 182
+    },
+    "0xa4c138a15c8f8a8d": {
+        "battery": 100,
+        "water_leak": false,
+        "tamper": false,
+        "battery_low": false
+    },
+    "0xa4c1388acffc925b": {
+        "battery": 82,
+        "voltage": 2800,
+        "occupancy": false,
+        "tamper": false,
+        "battery_low": false,
+        "keep_time": 60,
+        "sensitivity": "medium",
+        "linkquality": 163
+    },
+    "0x00158d00020291f3": {
+        "temperature": 21.72,
+        "humidity": 59.12,
+        "voltage": 3015,
+        "battery": 100,
+        "power_outage_count": 2477,
+        "linkquality": 189
+    },
+    "0xa4c13804a2ca030e": {
+        "battery": 100,
+        "voltage": 2900,
+        "keep_time": 60,
+        "sensitivity": "medium",
+        "occupancy": false,
+        "tamper": false,
+        "battery_low": false,
+        "linkquality": 163
+    },
+    "0xa4c138421a169cc8": {
+        "state": "ON",
+        "power_on_behavior": "previous",
+        "switch_type": "toggle",
+        "linkquality": 160
+    },
+    "0x04cf8cdf3c764a60": {
+        "device_temperature": 27,
+        "power_outage_count": 0,
+        "state": "ON",
+        "energy": 27.35,
+        "consumption": 27.35,
+        "voltage": 231,
+        "current": 0,
+        "power": 0,
+        "consumer_connected": true,
+        "linkquality": 149,
+        "update": {
+            "state": "idle",
+            "installed_version": 22,
+            "latest_version": 22
+        },
+        "update_available": false
+    },
+    "0xa4c138af175a329b": {
+        "volume": "high",
+        "battpercentage": 100,
+        "melody": 6,
+        "linkquality": 156,
+        "alarm": false
+    },
+    "0xa4c1381f70561d42": {
+        "battery": 100,
+        "voltage": 3000,
+        "contact": true,
+        "tamper": false,
+        "battery_low": false
+    },
+    "0xa4c138ab8698f110": {
+        "battery": 100,
+        "voltage": 3000,
+        "contact": false,
+        "tamper": true,
+        "battery_low": false
+    },
+    "0xa4c138003419fb85": {
+        "moving": "STOP",
+        "position": 46,
+        "state": "OPEN",
+        "calibration_time": 60,
+        "motor_reversal": "OFF",
+        "calibration": "OFF",
+        "linkquality": 83
+    },
+    "0xa4c138f7a6ce6145": {
+        "moving": "STOP",
+        "position": 14,
+        "state": "OPEN",
+        "calibration_time": 60,
+        "motor_reversal": "OFF",
+        "calibration": "OFF",
+        "linkquality": 21
+    },
+    "0x00158d0001614779": {
+        "operation_mode": "control_relay",
+        "state": "OFF",
+        "update": {
+            "state": "idle",
+            "installed_version": 22,
+            "latest_version": 22
+        },
+        "update_available": false,
+        "linkquality": 174
+    }
+}

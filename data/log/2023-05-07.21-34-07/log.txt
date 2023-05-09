@@ -1,0 +1,11 @@
+info  2023-05-07 21:34:07: Logging to console and directory: 'C:\Users\ibarrosj\Documents\zigbee2mqtt\data\log\2023-05-07.21-34-07' filename: log.txt
+info  2023-05-07 21:34:07: Starting Zigbee2MQTT version 1.30.4 (commit #b2dd21e1)
+info  2023-05-07 21:34:07: Starting zigbee-herdsman (0.14.89)
+error 2023-05-07 21:34:07: Error while starting zigbee-herdsman
+error 2023-05-07 21:34:07: Failed to start zigbee
+error 2023-05-07 21:34:07: Check https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html for possible solutions
+error 2023-05-07 21:34:07: Exiting...
+error 2023-05-07 21:34:07: Error: Error while opening serialport 'Error: Opening \\.\COM3: Access denied'
+    at SerialPort.<anonymous> (C:\Users\ibarrosj\Documents\zigbee2mqtt\node_modules\zigbee-herdsman\src\adapter\z-stack\znp\znp.ts:146:28)
+    at SerialPort._error (C:\Users\ibarrosj\Documents\zigbee2mqtt\node_modules\@serialport\stream\dist\index.js:76:22)
+    at C:\Users\ibarrosj\Documents\zigbee2mqtt\node_modules\@serialport\stream\dist\index.js:112:18

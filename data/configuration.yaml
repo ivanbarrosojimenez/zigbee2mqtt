@@ -1,0 +1,47 @@
+homeassistant: true
+permit_join: true
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://192.168.1.150:1883
+serial:
+  port: \\.\COM3
+frontend:
+  port: 8080
+devices:
+  '0x00158d00022c1043':
+    friendly_name: '0x00158d00022c1043'
+  '0x187a3efffe0f6663':
+    friendly_name: presence_1
+  '0xa4c138b029ecf4da':
+    friendly_name: '0xa4c138b029ecf4da'
+  '0xa4c138694bdc6ae5':
+    friendly_name: '0xa4c138694bdc6ae5'
+  '0xa4c1388691346d6e':
+    friendly_name: '0xa4c1388691346d6e'
+  '0xa4c138a15c8f8a8d':
+    friendly_name: '0xa4c138a15c8f8a8d'
+  '0x00158d00020291f3':
+    friendly_name: '0x00158d00020291f3'
+  '0xa4c1388acffc925b':
+    friendly_name: '0xa4c1388acffc925b'
+  '0xa4c13804a2ca030e':
+    friendly_name: '0xa4c13804a2ca030e'
+  '0xa4c138421a169cc8':
+    friendly_name: switch_1_wall
+    state_action: false
+  '0x04cf8cdf3c764a60':
+    friendly_name: '0x04cf8cdf3c764a60'
+  '0xa4c138af175a329b':
+    friendly_name: '0xa4c138af175a329b'
+  '0xa4c1381f70561d42':
+    friendly_name: Door_1
+  '0xa4c138b5c8fe09a0':
+    friendly_name: '0xa4c138b5c8fe09a0'
+  '0xa4c138ab8698f110':
+    friendly_name: '0xa4c138ab8698f110'
+  '0xa4c138003419fb85':
+    friendly_name: persiana_despacho
+  '0xa4c138f7a6ce6145':
+    friendly_name: persiana_salon
+  '0x00158d0001614779':
+    friendly_name: interruptor_pared_sin_neutro
